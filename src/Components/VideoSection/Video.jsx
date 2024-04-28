@@ -5,7 +5,7 @@ import { FaCirclePlay } from "react-icons/fa6";
 const Video = () => {
     return (
         <>
-            <div className='bg-cover object-fill w-full block mb-16' style={{ backgroundImage: 'url("/public/bg7.png")' }}>
+            <div className='bg-cover object-fill w-full block mb-16' style={{ backgroundImage: 'url("/bg7.png")' }}>
                 <div className=' container max-w-[1200px] mx-auto '>
                     <div className=' lg:flex  justify-between mx-[-15px] items-center'>
                         <div className="px-5 py-20 ">
