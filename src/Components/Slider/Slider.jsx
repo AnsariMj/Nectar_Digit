@@ -13,7 +13,7 @@ const Slider = () => {
                             <p className='text-[#fff]  text-xl font-bold leading-9 mb-20 '>  Nectar Digit</p>
                         </div>
                         <div className='flex w-[70%]'>
-                            <div className='w-[585px] ml-8'>
+                            <div className='w-[585px] ml-[-80px]'>
                                 <img src="/form-img.png" alt="" />
                             </div>
 
