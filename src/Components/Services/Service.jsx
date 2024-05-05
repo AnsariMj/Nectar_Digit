@@ -17,7 +17,7 @@ const Service = () => {
                         </span>
                     </div>
                     <div className=' md:flex    text-center   '>
-                        <ServiceCard img={'web-design-development.png'} heading={"Web Designe & Development"} description={'Cross-browser and cross-device compatibility driven by mobile responsiveness all under one roof.Starting from basic website designs, including CMS...'} />
+                        <ServiceCard img={'web-design-development.png'} heading={"Web Designe & Development"} description={'Cross-browser and cross-device compatibility driven by mobile responsiveness all under one roof.Starting from basic website designs'} />
                         <ServiceCard img={'mobile-app-development-01-1.png'} heading={"Mobile App Development"} description={'Creating seamless and intuitive mobile applications that offer the best user experience is what our team of mobile app development professionals at Ne...'} />
                         <ServiceCard img={'digital-marketing-01-1.png'} heading={"Digital Marketing"} description={'Digital marketing comprises of a number of activities for the web apart from marketing and each and every activity needs to be executed with focus on...'} />
                     </div>

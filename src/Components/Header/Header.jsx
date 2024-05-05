@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { NavLink } from 'react-router-dom';
+import DropdownMenu from './DropdownMenu ';
+// import { FaAngleDown } from "react-icons/fa";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -53,14 +55,15 @@ const Header = () => {
                         </li>
 
                         <li className=' font-sans text-l font-bold px-5  inline-block'>
-                            <NavLink
-                                to="/addMarketing"
+                            <DropdownMenu />
+                            {/* <NavLink
+                                to="/#"
                                 className={({ isActive }) =>
                                     ` ${isActive ? "text-orange-600" : "text-gray-600 hover:underline "}  hover:text-orange-600`
                                 }
                             >
-                                ADD MARKETING
-                            </NavLink>
+                                ADD MARKETING<FaAngleDown className="ml-2  relative top-[-20px] left-[135px] mt-0.5" />
+                            </NavLink> */}
                         </li>
                         <li className=' font-sans text-l font-bold px-5  inline-block'>
                             <NavLink
